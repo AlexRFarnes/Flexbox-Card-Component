@@ -1,0 +1,127 @@
+/* 
+    font-family: 'Blinker', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+
+    #05CBE9
+    #111D4A
+    #fff
+*/
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+}
+
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+/* Card component */
+.card {
+  /* margin: 3em auto; */
+  max-width: 800px;
+  width: 90%;
+  background-color: #111d4a;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-img {
+  object-fit: cover;
+  flex-basis: 200px;
+  /* Fixes bug when working with images and flex-basis. */
+  min-height: 0;
+  min-width: 0;
+  display: block;
+}
+
+.card-content {
+  padding: 1em;
+}
+
+.card-title,
+.card-btn,
+.card-reading-time {
+  font-family: "Blinker", sans-serif;
+}
+
+.card-title {
+  font-weight: 700;
+  line-height: 1.2;
+  color: #05cbe9;
+  font-size: 1.75rem;
+  margin-bottom: 0.75em;
+}
+
+.card-text {
+  opacity: 0.8;
+  line-height: 1.6;
+  margin-bottom: 3em;
+  font-size: 1rem;
+}
+
+.card-bottom-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.card-reading-time {
+  font-size: 1.25rem;
+  opacity: 0.51;
+  margin: 0;
+  line-height: 1;
+}
+
+.minute {
+  display: block;
+  font-weight: 700;
+  font-size: 1.75rem;
+}
+
+.card-btn {
+  text-decoration: none;
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #111d4a;
+  background: #05cbe9;
+  padding: 0.35em 1.5em;
+  letter-spacing: 1px;
+}
+
+@media (min-width: 600px) {
+  .card {
+    flex-direction: row;
+  }
+
+  .card-img {
+    height: 350px;
+  }
+
+  .card-content {
+    display: flex;
+    flex-direction: column;
+    padding: 1.5em;
+  }
+
+  .card-title {
+    font-size: 2rem;
+  }
+
+  .card-text {
+    font-size: 1.125rem;
+    margin-bottom: auto;
+    max-width: 500px;
+  }
+}
