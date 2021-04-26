@@ -19,8 +19,9 @@ A responsive card component built with flexbox. It's a project for Scrimba's Res
 ## Screenshots
 
 ![Screenshot](https://user-images.githubusercontent.com/57517804/116060254-4bbe0300-a6b4-11eb-86f8-1e5693fb204e.png)
-![Screenshot_1](https://user-images.githubusercontent.com/57517804/116060265-4eb8f380-a6b4-11eb-8cee-544b098ac397.png)
 ![Screenshot_2](https://user-images.githubusercontent.com/57517804/116060289-537da780-a6b4-11eb-9c0f-421f59894530.png)
+![Screenshot_1](https://user-images.githubusercontent.com/57517804/116060265-4eb8f380-a6b4-11eb-8cee-544b098ac397.png)
+
 
 [Demo](https://clever-raman-302a9e.netlify.app)
 
